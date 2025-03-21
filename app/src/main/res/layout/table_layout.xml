@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="#F5F5F5">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF6200EE"
+    android:padding="8dp">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="BUTTON"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF6200EE" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="This is Table View!"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="BUTTON"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF6200EE" />
+</TableRow>
+
+
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#03DAC5"
+    android:padding="8dp">
+
+<Button
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="BUTTON"
+android:textColor="#FFFFFF"
+android:backgroundTint="#03DAC5" />
+
+<CheckBox
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="2"
+android:text="CheckBox"
+android:gravity="center"
+android:textColor="#FFFFFF"
+android:textSize="16sp" />
+
+<Button
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="BUTTON"
+android:textColor="#FFFFFF"
+android:backgroundTint="#03DAC5" />
+    </TableRow>
+
+
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#BB86FC"
+    android:padding="8dp">
+
+<Switch
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="Switch"
+android:textColor="#FFFFFF"
+android:textSize="16sp" />
+
+<Button
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="2"
+android:text="BUTTON"
+android:textColor="#FFFFFF"
+android:backgroundTint="#BB86FC" />
+
+<Button
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="BUTTON"
+android:textColor="#FFFFFF"
+android:backgroundTint="#BB86FC" />
+    </TableRow>
+    </TableLayout>
