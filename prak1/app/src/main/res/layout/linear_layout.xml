@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Первый горизонтальный LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Btn 1"
+            android:textSize="16sp"
+            android:backgroundTint="#FF6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Btn 2"
+            android:textSize="16sp"
+            android:backgroundTint="#FF03DAC5"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Btn 3"
+            android:textSize="16sp"
+            android:backgroundTint="#FF018786"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Второй горизонтальный LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Click Me"
+            android:textSize="14sp"
+            android:backgroundTint="#FFBB86FC"
+            android:textColor="#000000"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Press!"
+            android:textSize="14sp"
+            android:backgroundTint="#FF3700B3"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tap Here"
+            android:textSize="14sp"
+            android:backgroundTint="#FF03DAC5"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
