@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_webview"
+            android:icon="@drawable/ic_menu_browser"
+            android:title="@string/webview_title" />
+
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/data_title" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Компас" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Фото" />
+        <item
+            android:id="@+id/nav_microphone"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Микрофон" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_browser"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_file_work"
+            android:icon="@drawable/ic_menu_browser"
+            android:title="Работа с файлами" />
+    </group>
+</menu>
